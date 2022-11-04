@@ -389,13 +389,73 @@ background-color: var(--main-color);
     font-weight: 400;
         font-size: 16px;
         line-height: 1.2;
-        margin: 0px;
+        margin: 0px 0px 16px 0px;
 }
 .team-player{
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+    width: 44px;
+    height: 44px;
+}
+
+.icon{
+    fill: #AFB1B8; 
+}
+
+.social-link:hover,
+.social-link:focus{
+    background-color: var(--accent-color);
+    
+}
+.social-link:hover .icon,
+.social-link:focus .icon{
+    fill: var(
+        --main-color
+    )
+}
+
+
+/* Clients */
+
+.clients-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            gap: 30px;
+}
+.clients-title{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.clients-link{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    width: 170px;
+        height: 92px;
+        border: 1px solid #AFB1B8;
+}
+.clients-link:hover{
+    border-color: var(--accent-color);
+}
+.clients-link:hover .icon{
+    fill: var(--accent-color);
+}
 
 /* Footer */
 .footer{
