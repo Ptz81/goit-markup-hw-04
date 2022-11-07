@@ -171,38 +171,7 @@ body{
     margin-right: 10px;
     fill: currentColor;
 }
-/* .mail-icon:hover,
-.mail-icon:focus
-{
-    fill: currentColor;
-} */
-/* .icon-envelope::before{
-    content: '';
-    width: 16px;
-    height: 16px;
-    display: inline-block;
 
-    margin-right: 10px;
-    background-image: url(../images/envelope.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-} */
-
-
-/* 
-.icon-phone::before{
-    content: '';
-        width: 16px;
-        height: 16px;
-        display: inline-block;
-        margin-right: 10px;
-        background-image: url(../images/smartphone.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-} */
 
 .logo{
     color: var(--logo-color);
